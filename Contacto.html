@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contacto</title>
+        <link href="Css.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>Contacto</header>
+        <section>
+            <nav>
+                <ul class="horizontal"><h2>Menú</h2>
+                  <li><a href="Index.html">Página Principal</a></li>
+                  <li><a href="Trabajos realizados.html" target="_blank" >Trabajos</a></li>
+                  <li>Sobre nosotros</li>
+                  <li><a href="Contacto.html" target="_blank">Contaco</a></li>
+                </ul>
+            </nav>
+            <article>
+             <p>Poneros en contacto con nosotros, estos datos solo los pedimos para poder ponernos en contacto con usted.</p>
+        <form>
+            <fieldset class="datos personales">
+                <legend>Datos Personales</legend>
+                Nombre: <input type="text" name="nombre"><br/>
+                Apellidos: <input type="text" name="apellidos">
+            </fieldset><br/>
+            <fieldset class="contacto">
+                <legend>Datos de contacto</legend>
+                Email: <input type="email" name="email">
+                Teléfono: <input type="tel" name="telf" pattern="(+[0-9]{2}[0-9]{9}"/>
+            </fieldset><br/>
+            <p>Describanos su problema:</p>
+            <textarea name="descripcción" cols="60" rows="10"></textarea><br/>
+
+            
+        <input type="submit" name="Enviar">
+        </form>
+            </article>
+        </section>
+    </body>
+</html>
